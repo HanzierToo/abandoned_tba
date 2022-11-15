@@ -1,0 +1,74 @@
+<meta charset="utf-8">
+
+<audio id="keypress_normal1" preload="auto" controls style="display:none">
+  <source src="audio/normal1.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio id="keypress_normal2" preload="auto" controls style="display:none">
+  <source src="audio/normal2.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio id="keypress_space" preload="auto" controls style="display:none">
+  <source src="audio/spacebar.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio id="keypress_hard" preload="auto" controls style="display:none">
+  <source src="audio/keypress_hard.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio id="keypress_enter" preload="auto" controls style="display:none">
+  <source src="audio/enter.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<div style="padding-bottom: 100px">
+  <!-- Game content -->
+  <div id="output" style="white-space: pre-wrap"></div>
+
+  <!-- Player input -->
+  <div class="input">
+    <span class="ml-2">> </span><input id="input" autofocus spellcheck="false">
+  </div>
+</div>
+
+<!-- CSS styles -->
+<link id="styles" rel="stylesheet" type="text/css" href="styles/retro.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
+
+<!-- Include game engine -->
+<script src="index.js"></script>
+
+<!-- Include game data ('disk') -->
+<script src="game-disks/abandoned.js"></script>
+
+<!-- Load disk into engine -->
+<script>loadDisk(abandoned);</script>
+
+<script>
+  document.addEventListener('keydown', function(e) {
+    if(e.keyCode === 9 || e.keyCode === 17 || e.keyCode === 18 || e.keyCode === 19 || e.keyCode === 20 || e.keyCode === 27) {
+
+    } else if(e.key == " " || e.code == "Space" || e.keyCode == 32){
+      document.getElementById('keypress_space').pause();
+      document.getElementById('keypress_space').currentTime = 0;
+      document.getElementById('keypress_space').play();
+    } else if(e.keyCode === 13){
+      document.getElementById('keypress_enter').pause();
+      document.getElementById('keypress_enter').currentTime = 0;
+      document.getElementById('keypress_enter').play();
+    } else{
+      let rand = Math.floor(Math.random() * 100);
+      if(rand <= 90){
+        document.getElementById('keypress_normal2').pause();
+      document.getElementById('keypress_normal2').currentTime = 0;
+        document.getElementById('keypress_normal2').play();
+      } else if(rand <= 100){
+        document.getElementById('keypress_hard').pause();
+      document.getElementById('keypress_hard').currentTime = 0;
+        document.getElementById('keypress_hard').play();
+      }
+    }
+  });
+
+</script>
+
+<div style="position: fixed; bottom: 0px; left: 50%; transform: translate(-50%)">
+  <a href="https://github.com/okaybenji/text-engine" target="_blank">Engine Used</a>
+</div>
