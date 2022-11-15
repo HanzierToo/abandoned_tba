@@ -1,4 +1,4 @@
-## Abandoned _Text-Based Adventure_
+# Abandoned _Text-Based Adventure_
 
 ### Description
 Abandoned (aptly-named) is a text-based adventure game created during
