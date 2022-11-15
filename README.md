@@ -19,11 +19,11 @@ releases behind the main branch as the loading times and access to
 the websites' files are unbearably slow and unintuitive (basically, I'm lazy).
 
 ### Version History
-* Preview Build 1 | 31/07/22
+* Preview Build 1 [A00] | 31/07/22
   * 1 Room Available (Intro Cell)
-* Preview Build 2 | --/08/22 _~~I forgor~~_
+* Preview Build 2 [A01] | --/08/22 _~~I forgor~~_
   * 2 Rooms Available (Intro Cell + Chamber)
-* **Preview Build 3 [Active Build]** | --/10/22 _~~I forgor again~~_
+* **Preview Build 3 [A02 | Active]** | --/10/22 _~~I forgor again~~_
   * 4 Rooms Available (Intro Cell + Chamber, Armoury, Ground Floor)
 
 ### Update (15/11/22)
