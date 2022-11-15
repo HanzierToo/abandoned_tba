@@ -18,7 +18,19 @@ bother). Note that the version on the website is often times several
 releases behind the main branch as the loading times and access to
 the websites' files are unbearably slow and unintuitive (basically, I'm lazy).
 
+### Version History
+* Preview Build 1 | 31/07/22
+  * 1 Room Available (Intro Cell)
+* Preview Build 2 | --/08/22 _~~I forgor~~_
+  * 2 Rooms Available (Intro Cell + Chamber)
+* **Preview Build 3 [Active Build]** | --/10/22 _~~I forgor again~~
+  * 4 Rooms Available (Intro Cell + Chamber, Armoury, Ground Floor)
 
+### Update (15/11/22)
+As I'm currently being swamped by the endless abyss known as _**uni work**_ I've
+postponed work on the project for the foreseeable future. The intro section
+is more or less done in terms of the narrative (similar to a chapter of a book)
+so the experience shouldn't be _too_ abruptly interrupted.
 
 ### Credits
 **[okaybenji's text-engine](https://github.com/okaybenji/text-engine)**
