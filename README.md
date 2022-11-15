@@ -23,7 +23,7 @@ the websites' files are unbearably slow and unintuitive (basically, I'm lazy).
   * 1 Room Available (Intro Cell)
 * Preview Build 2 | --/08/22 _~~I forgor~~_
   * 2 Rooms Available (Intro Cell + Chamber)
-* **Preview Build 3 [Active Build]** | --/10/22 _~~I forgor again~~
+* **Preview Build 3 [Active Build]** | --/10/22 _~~I forgor again~~_
   * 4 Rooms Available (Intro Cell + Chamber, Armoury, Ground Floor)
 
 ### Update (15/11/22)
